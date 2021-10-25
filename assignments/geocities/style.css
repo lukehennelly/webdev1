@@ -1,0 +1,80 @@
+
+body{
+  background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2017%2F09%2Fblack-background-gif-12.gif&f=1&nofb=1)
+  ;
+  background-size: 25rem;
+}
+.naomicloseup{
+    position: fixed;
+    top:30%;
+    left: 4%;
+    bottom: 30%;
+    right: 70%;
+}
+.boxwithbg{
+    width:  18rem;
+    height: 4rem;
+   
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    color: deeppink ;
+
+    background: rgb(197,93,227);
+    background: linear-gradient(90deg, rgba(197,93,227,1) 0%, rgba(254,254,254,1) 49%, rgba(0,212,255,1) 100%);
+
+    position: absolute;
+    right: 39%;
+    left: 39%;
+    top: 39%;
+    bottom:39%;
+}
+.rose{
+    position:fixed;
+    left:2%;
+    top: 3%;
+  
+}
+.naomicoat{
+   position: absolute;
+   left: 75%;
+  top: 60%;
+}
+.flowerwrap{
+   position: absolute;
+   left: 38%;
+   top: 35%;
+}
+.box{
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    background:blue;
+    color: white;
+    position: absolute;
+    left: 83%;
+    top: 47%;
+}
+.pink{
+    position: absolute;
+    left: 38%;
+    top: 50%;
+}
+.heart {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+.rose2{
+    position:fixed;
+    left: 15%;
+    top: 7%;
+}
+.naomi{
+position: absolute;
+left: 67%;
+top: 5%;
+}
+.rose3{
+    position:fixed;
+    left: 4%;
+    top: 65%;
+}
