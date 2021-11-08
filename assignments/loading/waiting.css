@@ -1,0 +1,22 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 2em solid rgb(78, 20, 70);
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+   
+    border-top: 2em solid #dd0b7e ;
+    border-bottom:2em solid rgb(212, 108, 151);
+    border-right:2em solid rgb(240, 119, 193);
+    
+    animation: rotate 1s infinite linear;
+
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
