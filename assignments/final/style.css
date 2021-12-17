@@ -1,0 +1,194 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+header{
+    display: flex;
+    justify-content:flex-end;
+    gap: 20rem;
+    align-items: center;
+
+    background: #4b4a4a;
+ color: rgb(243, 243, 243);
+   
+    height: 50px;
+    padding: 0px 200px;
+    font-size: 16px;
+}
+
+header a{
+    margin: 5px;
+    text-decoration: inherit;
+    color: inherit;
+}
+.hamburger {
+    width: max-content;
+    display: block;
+    position: absolute;
+    left: 95%;
+  }
+  .patty {
+    width: 2rem;
+    height: .25rem;
+    background: black;
+    margin: .325em 0;
+  }
+  .slide-menu {
+    background:grey;
+    height: 100vh;
+    width: 100%;
+    max-width: 180px;
+    z-index: 100;
+    
+    position: fixed;
+    top: 7%;
+    right: 0;
+    transform: translateX(100%);
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: transform .5s linear;
+  }
+  
+  .slide {
+    transform: translateX(0);
+  }
+  
+  .slide-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .slide-menu a:hover {
+    color: rgb(232, 148, 240);
+    background: rgb(109, 110, 110);
+  }
+  
+header a:hover{
+    color: yellowgreen;
+}
+.mainphoto{
+    height: 800px;
+    background-image:url(https://assets.teenvogue.com/photos/56e6d052217b78a051a25152/master/pass/GettyImages-498509358.jpg);
+    background-size: cover;
+}
+
+.title1{
+    position: absolute;
+    top: 79%;
+    left: 60%;
+    font-size: 50px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+}
+.subtitle{
+position: absolute;
+top: 96%;
+left: 61%;
+color: white;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+main{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 200px;
+    gap: 2em;
+}
+.grid p{
+    padding: 1em;
+}
+.grid img{
+   
+    width: 100%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 20px 200px ;
+}
+.grid2 img{
+
+    width: 100%;
+}
+
+.card{
+padding-bottom: 5px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 20px ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 50px;
+}
+footer img{
+    max-width: 25px;
+}
+.logo{
+    position: absolute;
+    top: 2%;
+    left :2%;
+}
+.logo img{
+    max-width: 35px;
+}
+@media (max-width: 1050px){
+    .grid{
+        grid-template-columns: 1fr;
+       
+    }
+    .grid2{
+        grid-template-columns: 1fr;
+        
+    }
+    .title1{
+        top:15%;
+        left: 1%;
+        font-size: 40px;
+    }
+    .subtitle{
+        top: 23%;
+        left: 1%;
+    }
+.slide-menu{
+    left: 0%;
+    max-width: 100%;
+}
+}
+@media (max-width: 580px){
+.title1{
+    font-size: 35px;
+}
+main{
+font-size: 12px;
+}
+.grid{
+    margin: 0px 10px;
+}
+.grid2{
+    margin: 0px 10px;
+}
+.hamburger{
+    left: 90%;
+}
+header{
+    padding: 0px 50px;
+}
+}
